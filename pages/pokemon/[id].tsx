@@ -5,7 +5,7 @@ import { NextPage, GetStaticPaths, GetStaticProps} from 'next';
 
 import confetti from 'canvas-confetti'
 
-import { pokeApi } from '../../api';
+// import { pokeApi } from '../../api';
 import { Pokemon } from '../../interfaces';
 import { localFavorites } from '../../utils';
 import Image from 'next/image';

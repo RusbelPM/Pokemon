@@ -26,6 +26,7 @@ export const PokemonCard:FC<Props> = ({pokemon}) => {
                 width={300}
                 height={180}
                 alt="poke"
+                priority
                 />
             </div>
             <h2>{name}</h2>

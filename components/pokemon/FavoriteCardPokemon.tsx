@@ -23,6 +23,7 @@ export const FavoriteCardPokemon:NextPage<Props> = ({pokemonId}) => {
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemonId}.svg`}
             width={300}
             height={180}
+            priority
             alt="poke"
             />
 

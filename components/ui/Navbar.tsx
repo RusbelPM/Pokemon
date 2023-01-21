@@ -22,6 +22,7 @@ export const Navbar = () => {
           alt="icono"
           width={50}
           height={50}
+          priority
           style={{
             marginTop:"15px"
           }}
